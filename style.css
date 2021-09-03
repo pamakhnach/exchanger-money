@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E54D;
+    font-family: 'Roboto', sans-serif;
+}
+
+.live__rate  {
+    display: block;
+}
+
+.wrapper__rate {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.rate__currency {
+    text-align: center;
+    background: linear-gradient(180deg, #4765A4 0%, #352465 100%);
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 2rem 5rem 1rem;
+    color: #fff;
+}
+
+.rate__currency__RUB {
+    text-align: center;
+    background: linear-gradient(180deg, #4765A4 0%, #352465 100%);
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 2rem 3.8rem 1rem;
+    color: #fff;
+}
+.rate__currency__PLN {
+    text-align: center;
+    background: linear-gradient(180deg, #4765A4 0%, #352465 100%);
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 2rem 4rem 1rem;
+    color: #fff;
+}
+
+.name__currency {
+    font-weight: 400;
+    padding-top: 2rem;
+}
+
+.rate {
+    font-weight: 300;
+}
+
+.img__currency {
+    margin-bottom: 1rem;
+}
+
+.wrapper__qoutes {
+    max-width: 1110px;
+    margin: 0 auto;
+    color: #352465;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.text__quotes {
+    font-weight: 300;
+}
+
+.currency {
+    display: flex;
+    max-width: 1110px;
+    margin: 0 auto;
+    justify-content: space-around;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 10px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 1.5rem 0 1.5rem;
+    color: #352465;
+}
+
+.form {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 13px;
+}
+
+.to {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 13px;
+}
+
+.BY__box {
+    display: flex;
+    margin-top: 0.2rem;
+    margin-bottom: 11rem;
+}
+
+.input__BY, .input__USD, .input__EUR, .input__RUB, .input__PLN {
+    background: rgba(53, 36, 101, 0.07);
+    border: 1px solid rgba(53, 36, 101, 0.2);
+    text-align: right;
+    color: #352465;
+}
+
+.USD__box, .EUR__box, .RUB__box, .PLN__box {
+    display: flex;
+    margin-top: 0.2rem;
+}
+
+.name__BY, .name__USD, .name__EUR, .name__RUB, .name__PLN {
+    background: rgba(53, 36, 101, 0.07);
+    border: 1px solid rgba(53, 36, 101, 0.2);
+    padding: 0.3rem 1.3rem 0.3rem;
+    font-weight: 400;
+    margin-right: 0.8rem;
+}
+
+.to__EUR, .to__RUB, .to__PLN{
+    margin-top: 0.8rem;
+}
+
+.footer__title {
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    color: #352465;
+    font-weight: 300;
+    font-size: 11px;
+}
+
